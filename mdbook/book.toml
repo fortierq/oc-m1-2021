@@ -1,9 +1,0 @@
-[book]
-authors = ["Quentin Fortier"]
-language = "en"
-multilingual = false
-src = "src"
-title = "Optimisation combinatoire"
-
-[output.html]
-mathjax-support = true

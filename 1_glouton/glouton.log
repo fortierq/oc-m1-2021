@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.13.0 (TeX Live 2021)  (format=lualatex 2021.4.5)  12 SEP 2021 13:28
+This is LuaHBTeX, Version 1.13.0 (TeX Live 2021)  (format=lualatex 2021.4.5)  12 SEP 2021 14:15
  restricted system commands enabled.
 **1_glouton/glouton.tex
 (./1_glouton/glouton.tex
@@ -1065,7 +1065,7 @@ File: l3backend-luatex.def 2021-03-18 L3 backend support: PDF output (LuaTeX)
 \l__color_backend_stack_int=\count338
 \l__pdf_internal_box=\box111
 )
-(/tmp/tmp.emSEB13CWU/src/1_glouton/glouton.aux)
+(/tmp/tmp.VErUKxA4V5/src/1_glouton/glouton.aux)
 \openout1 = glouton.aux
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
@@ -1168,8 +1168,8 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 5.
 LaTeX Info: Redefining \pageref on input line 5.
 LaTeX Info: Redefining \nameref on input line 5.
- (/tmp/tmp.emSEB13CWU/src/1_glouton/glouton.out)
-(/tmp/tmp.emSEB13CWU/src/1_glouton/glouton.out)
+ (/tmp/tmp.VErUKxA4V5/src/1_glouton/glouton.out)
+(/tmp/tmp.VErUKxA4V5/src/1_glouton/glouton.out)
 \@outlinefile=\write7
 
 \openout7 = glouton.out
@@ -1242,20 +1242,20 @@ Dictionary: translator-theorem-dictionary, Language: English
 )
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
- (/tmp/tmp.emSEB13CWU/src/1_glouton/glouton.nav) [1
+ (/tmp/tmp.VErUKxA4V5/src/1_glouton/glouton.nav) [1
 
 {/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 \openout4 = glouton.vrb
 
-(/tmp/tmp.emSEB13CWU/src/1_glouton/glouton.vrb) [2
+(/tmp/tmp.VErUKxA4V5/src/1_glouton/glouton.vrb) [2
 
 ]
-(/tmp/tmp.emSEB13CWU/src/1_glouton/glouton.vrb) [3
+(/tmp/tmp.VErUKxA4V5/src/1_glouton/glouton.vrb) [3
 
 ]
 \openout4 = glouton.vrb
 
-(/tmp/tmp.emSEB13CWU/src/1_glouton/glouton.vrb
+(/tmp/tmp.VErUKxA4V5/src/1_glouton/glouton.vrb
 LaTeX Font Info:    Trying to load font information for U+msa on input line 6.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsa.fd
@@ -1281,46 +1281,39 @@ LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <6> not available
 ) [4
 
 ]
-(/tmp/tmp.emSEB13CWU/src/1_glouton/glouton.vrb) [5
+(/tmp/tmp.VErUKxA4V5/src/1_glouton/glouton.vrb) [5
 
 ]
-(/tmp/tmp.emSEB13CWU/src/1_glouton/glouton.vrb) [6
+(/tmp/tmp.VErUKxA4V5/src/1_glouton/glouton.vrb) [6
 
 ]
 \openout4 = glouton.vrb
 
-(/tmp/tmp.emSEB13CWU/src/1_glouton/glouton.vrb) [7
+(/tmp/tmp.VErUKxA4V5/src/1_glouton/glouton.vrb) [7
 
 ] [8
 
 ] [9
 
-]
-Overfull \vbox (5.30832pt too high) detected at line 147
- []
+] [10
 
-[10
-
-]
-Overfull \vbox (5.30832pt too high) detected at line 147
- []
-
-[11
+] [11
 
 ] [12
 
-] [13
+]
+[13
+
+] [14
 
 ]
 LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <10> not available
-(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 180.
+(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 191.
 LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <7> not available
-(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 180.
+(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 191.
 LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <5> not available
-(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 180.
- [14
-
-] [15
+(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 191.
+ [15
 
 ] [16
 
@@ -1342,12 +1335,12 @@ LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <5> not available
 
 ] [25
 
-]
-[26
+] [26
 
 ] [27
 
-] [28
+]
+[28
 
 ] [29
 
@@ -1373,12 +1366,12 @@ LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <5> not available
 
 ] [40
 
-]
-[41
+] [41
 
 ] [42
 
-] [43
+]
+[43
 
 ] [44
 
@@ -1392,6 +1385,10 @@ LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <5> not available
 
 ] [49
 
+] [50
+
+] [51
+
 ]
 \tf@nav=\write8
 
@@ -1403,21 +1400,21 @@ LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <5> not available
 
 \openout10 = glouton.snm
 
-(/tmp/tmp.emSEB13CWU/src/1_glouton/glouton.aux)
+(/tmp/tmp.VErUKxA4V5/src/1_glouton/glouton.aux)
 Package rerunfilecheck Info: File `glouton.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 )
 
 Here is how much of LuaTeX's memory you used:
- 32697 strings out of 478531
+ 32709 strings out of 478531
  125086,1144653 words of node,token memory allocated
- 17692 words of node memory still in use:
+ 17696 words of node memory still in use:
    468 hlist, 14 vlist, 77 rule, 22 disc, 8 local_par, 16 math, 478 glue, 30 ker
-n, 19 penalty, 302 glyph, 1044 attribute, 61 glue_spec, 1044 attribute_list, 4 w
+n, 19 penalty, 302 glyph, 1045 attribute, 61 glue_spec, 1045 attribute_list, 4 w
 rite, 611 pdf_literal, 50 pdf_colorstack nodes
-   avail lists: 1:10,2:2859,3:1411,4:176,5:147,6:37,7:2485,8:24,9:593,10:18,11:7
+   avail lists: 1:10,2:2857,3:1411,4:176,5:148,6:37,7:2485,8:24,9:593,10:18,11:7
 4,12:1
- 50968 multiletter control sequences out of 65536+600000
+ 50976 multiletter control sequences out of 65536+600000
  84 fonts using 7667519 bytes
  145i,12n,138p,558b,1348s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmsans8-oblique.otf
@@ -1431,10 +1428,10 @@ lar.otf></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi1
 0.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.
 pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pf
 b></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on glouton.pdf (49 pages, 160405 bytes).
+Output written on glouton.pdf (51 pages, 165331 bytes).
 
-PDF statistics: 568 PDF objects out of 1000 (max. 8388607)
- 361 compressed objects within 4 object streams
- 99 named destinations out of 1000 (max. 131072)
- 1226 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 591 PDF objects out of 1000 (max. 8388607)
+ 376 compressed objects within 4 object streams
+ 103 named destinations out of 1000 (max. 131072)
+ 1286 words of extra memory for PDF output out of 10000 (max. 100000000)
 

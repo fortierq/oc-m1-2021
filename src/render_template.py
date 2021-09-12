@@ -2,7 +2,7 @@ import jinja2
 from pathlib import Path
 from collections import defaultdict
 
-env = jinja2.Environment(loader=jinja2.FileSystemLoader('.'))
+env = jinja2.Environment(loader=jinja2.FileSystemLoader('src'))
 
 template = env.get_template("template_pdf.md")
 

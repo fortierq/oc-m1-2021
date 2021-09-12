@@ -1,3 +1,4 @@
 # Summary
 
-- [Chapter 1](./chapter_1.md)
+- [Algorithmes gloutons](1_glouton/glouton.md)
+    - [TD algorithmes gloutons](1_glouton/td_glouton.md)

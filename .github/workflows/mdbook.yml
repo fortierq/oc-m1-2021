@@ -9,7 +9,6 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-20.04
-    continue-on-error: true
     steps:
       - uses: actions/checkout@v2
 
@@ -22,8 +21,8 @@ jobs:
           pip install Jinja2
           python3 src/render_template.py
           git add .
-          git commit -m "Render templates"
-          git push "https://fortierq:$${{ secrets.GITHUB_TOKEN }}@github.com/${{github.repository}}.git" --set-upstream master
+          git commit -m "Render templates" || true
+          git push "https://fortierq:$${{ secrets.GITHUB_TOKEN }}@github.com/${{github.repository}}.git" --set-upstream master || true
 
       - name: Setup mdBook
         uses: peaceiris/actions-mdbook@v1

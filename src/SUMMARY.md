@@ -1,4 +1,2 @@
-# Summary
-
-- [Algorithmes gloutons](1_glouton/glouton.md)
-    - [TD algorithmes gloutons](1_glouton/td_glouton.md)
+- [Glouton](1_glouton/glouton.md)
+	- [Td Glouton](1_glouton/TD_glouton.md)

@@ -1,4 +1,3 @@
-
 #sidebar,
 #menu-bar,
 .nav-chapters,
@@ -7,15 +6,15 @@
 }
 
 #page-wrapper.page-wrapper {
-    transform: none;
+    transform  : none;
     margin-left: 0px;
-    overflow-y: initial;
+    overflow-y : initial;
 }
 
 #content {
     max-width: none;
-    margin: 0;
-    padding: 0;
+    margin   : 0;
+    padding  : 0;
 }
 
 .page {
@@ -24,29 +23,38 @@
 
 code {
     background-color: #666666;
-    border-radius: 5px;
+    border-radius   : 5px;
 
     /* Force background to be printed in Chrome */
     -webkit-print-color-adjust: exact;
 }
 
-pre > .buttons {
+pre>.buttons {
     z-index: 2;
 }
 
-a, a:visited, a:active, a:hover {
-    color: #4183c4;
+a,
+a:visited,
+a:active,
+a:hover {
+    color          : #4183c4;
     text-decoration: none;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     page-break-inside: avoid;
-    page-break-after: avoid;
+    page-break-after : avoid;
 }
 
-pre, code {
+pre,
+code {
     page-break-inside: avoid;
-    white-space: pre-wrap;
+    white-space      : pre-wrap;
 }
 
 .fa {

@@ -1,4 +1,4 @@
-// prefix = "/oc-m1-2021"
+prefix = "/oc-m1-2021"
 if (typeof prefix == "undefined") {
     prefix = ""
 }

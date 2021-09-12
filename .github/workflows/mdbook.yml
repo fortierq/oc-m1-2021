@@ -15,10 +15,11 @@ jobs:
       - uses: actions/setup-python@v2
 
       - run: |
-          pip install Jinja2
-          python3 src/render_template.py
           git config --global user.name github-actions
           git config --global user.email github-actions@github.com
+          git pull
+          pip install Jinja2
+          python3 src/render_template.py
           git add .
           git commit -m "Render templates"
           git push "https://fortierq:$${{ secrets.GITHUB_TOKEN }}@github.com/${{github.repository}}.git" --set-upstream master

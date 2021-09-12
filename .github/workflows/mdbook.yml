@@ -19,7 +19,8 @@ jobs:
           git config --global user.email github-actions@github.com
           git pull
           pip install Jinja2
-          python3 src/render_template.py
+          cd src
+          python3 render_template.py
           git add .
           git commit -m "Render templates" || true
           git push "https://fortierq:$${{ secrets.GITHUB_TOKEN }}@github.com/${{github.repository}}.git" --set-upstream master || true

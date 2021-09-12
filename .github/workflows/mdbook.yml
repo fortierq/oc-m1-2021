@@ -21,7 +21,7 @@ jobs:
           git config --global user.email github-actions@github.com
           git add .
           git commit -m "Render templates"
-          git push "https://fortierq:$${{ secrets.GITHUB_TOKEN }}@github.com/{{ github.repository }}.git" --set-upstream master
+          git push "https://fortierq:$${{ secrets.GITHUB_TOKEN }}@github.com/{{ GITHUB_REPOSITORY }}.git" --set-upstream master
 
       - name: Setup mdBook
         uses: peaceiris/actions-mdbook@v1

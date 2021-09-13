@@ -1,2 +1,0 @@
-- [Glouton](src/1_glouton/glouton.md)
-	- [Td Glouton](src/1_glouton/TD_glouton.md)

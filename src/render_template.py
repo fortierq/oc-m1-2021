@@ -26,7 +26,6 @@ summary = Path("SUMMARY.md")
 with summary.open("w") as f:
     f.write("# Summary\n\n")
     for section in cours:
-        i = section.find("_")
-        f.write(f"- [{to_text(section[i+1:])}]({cours[section]})\n")
+        f.write(f"- [{to_text(section)}]({cours[section]})\n")
         for td in tds[section]:
             f.write(f"\t- [{to_text(td.stem)}]({td})\n")

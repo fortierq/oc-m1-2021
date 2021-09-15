@@ -24,6 +24,7 @@ def to_text(filename):
 
 summary = Path("SUMMARY.md")
 with summary.open("w") as f:
+    f.write("# Summary\n\n")
     for section in cours:
         i = section.find("_")
         f.write(f"- [{to_text(section[i+1:])}]({cours[section]})\n")

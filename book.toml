@@ -6,4 +6,8 @@ src = "src"
 title = "Optimisation combinatoire"
 
 [output.html]
+git-repository-url = "https://github.com/fortierq/ipt2"
 mathjax-support = true
+
+[output.html.print]
+enable = false

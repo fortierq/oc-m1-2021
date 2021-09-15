@@ -11,11 +11,12 @@ cours = {}
 
 for file in Path(".").rglob("*_*/**/*.pdf"):
     md = file.with_suffix(".md")
-    if "TD" in str(file):
+    td = "TD" in str(file)
+    if td:
         tds[file.parts[-2]].add(md)
     else:
         cours[file.parts[-2]] = str(md)
-    md.write_text(template.render(pdf=str(file), zoom="page-width" if "TD" in str(file) else "page-fit"))
+    md.write_text(template.render(pdf=str(file), size=8000 if td else 800, zoom="page-width" if td else "page-fit"))
 
 
 def to_text(filename):

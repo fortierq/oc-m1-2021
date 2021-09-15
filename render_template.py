@@ -9,7 +9,9 @@ template = env.get_template("template_pdf.md")
 tds = defaultdict(set)
 cours = {}
 
-for file in Path(".").rglob("*_*/**/*.pdf"):
+files = list(Path(".").rglob("*_*/**/*.pdf"))
+files.sort()
+for file in files:
     md = file.with_suffix(".md")
     td = "TD" in str(file)
     if td:

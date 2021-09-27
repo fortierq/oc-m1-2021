@@ -4,4 +4,4 @@ def knapsack(capacity, objects):
   
  
 objects = [(2, 1), (3, 7), (6, 10), (5, 10), (8, 13), (2, 1), (2, 1)] # chaque objet est un couple (poids, valeur)
-assert knapsack(10, objets) == 10 # knapsack(10, objets) doit renvoyer 18
+assert knapsack(10, objects) == 10 # knapsack(10, objets) doit renvoyer 18

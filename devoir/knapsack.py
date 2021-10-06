@@ -5,9 +5,9 @@ import time
 def knapsack(C, objects):
     # à remplir
     # renvoyer la valeur maximum que l'on peut obtenir en prennant des objets dont le poids total est inférieur à C
-    T=[[0 for c in range(0,C+1)] for i in range(0,len(objects)+1)]#Initialisation du tableau
+    T = [[0 for c in range(C+1)] for i in range(len(objects)+1)]
     for i in range(1,len(objects)+1):#Pour tous les objets on va voir si ils sont dans les boites
-        for c in range(0,C+1):
+        for c in range(C+1):
             if(c>=objects[i-1][0]):#Si on peut rajouter un objet 
                 T[i][c]=max(T[i-1][c],T[i-1][c-objects[i-1][0]]+objects[i-1][1])#Max(La valeur de la capcité de l'objet précedent , objet précédent moins sa valeur plus valeur p=objet actuel
             else:

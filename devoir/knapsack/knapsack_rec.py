@@ -1,3 +1,5 @@
+# Résolution du sac à dos par programmation dynamique, en récursif
+
 from functools import lru_cache
 
 def knapsack(C, objects):

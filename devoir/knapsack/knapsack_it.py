@@ -1,3 +1,5 @@
+# Résolution du sac à dos par programmation dynamique, en itératif
+
 def knapsack(C, objects):
     T = [[0]*(len(objects) + 1) for _ in range(C + 1)]
     taken = [-1]*(C+1)

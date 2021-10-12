@@ -1,5 +1,9 @@
 # Rendu de l'exercice de programmation (sac à dos)
 
+Implémenter l'algorithme de Ford-Fulkerson avec une façon de choisir les chemins (celui que vous préférez) : 
+avec un parcours en profondeur, largeur, ou l'algorithme de Prim modifié (plus large chemin).\\
+Vous pouvez aussi en implémenter plusieurs puis comparer leur temps d'exécution sur des gros graphes aléatoires.\\
+
 Le code doit être rendu par Pull Request.  
 Voici les étapes :
 - Aller sur https://github.com/fortierq/oc-m1-2021/tree/master/devoir et télécharger le fichier correspondant au langage que vous voulez utiliser (ex : knapsack.py)

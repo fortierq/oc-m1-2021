@@ -1,3 +1,10 @@
+import numpy as np
+
+G = np.zeros((6, 6))
+G[0][2] = 7
+G[2][3] = 2
+G[3][1] = 1
+G
 def cmin(G, pred): # renvoie la capacité min le long du chemin pred
     mini = float("inf")
     v = 1 # correspond au sommet t

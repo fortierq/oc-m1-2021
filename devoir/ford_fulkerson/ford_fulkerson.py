@@ -49,14 +49,14 @@ def bfs(G): #parcours en largeur depuis 0 (s)
 def prim(G):
     s=0
     pred=[-1]*len(G)
-    cout=[float("inf")]*len(G)
+    cout=[-1*float("inf")]*len(G)
     cout[s]=0
     F=[i for i in range(len(G)-1,-1,-1)]
     while (len(F)!=0):
         t=F[-1]
         del F[-1]
         for u in range(len(G)):
-            if(G[t][u]>0 and (u in F) and cout[u]>=G[t][u]):#si c'est une arrete et l'arrete est meilleur
+            if(G[t][u]>0 and (u in F) and cout[u]<=G[t][u]):#si c'est une arrete et l'arrete est meilleur
                 pred[u]=t
                 cout[u]=G[t][u]
                 del F[F.index(u)]

@@ -7,3 +7,4 @@
 	- [TD programmation dynamique](2_programmation_dynamique/TD_programmation_dynamique.md)
 - [Algorithmes de flots](3_algorithmes_de_flots/flots.md)
 	- [TD flots](3_algorithmes_de_flots/td_flots.md)
+- [Programmation lineaire](4_programmation_lineaire/lp.md)

@@ -1,0 +1,52 @@
+# Créé par Asaph, le 26/10/2021 en Python 3.7
+# somme des entiers de 1 à n
+def s(x):
+    l=[]
+    p=0
+    for i in range (1,x+1):
+        l.append(i)
+    for e in range (len(l)):
+        p+=l[e]
+    return p
+print(s(4))
+
+# Créé par Asaph, le 26/10/2021 en Python 3.7
+#voici la fonction affichant la liste des puissances de deux jusqu'à 2**n inclue
+def p(n):
+    l=[]
+    for i in range (n+1):
+        i=2**i
+        l.append(i)
+    return l
+print (p(4))
+
+# Créé par Asaph, le 26/10/2021 en Python 3.7
+# produit des entiers d'une liste
+def produit(l):
+    p=1
+    for i in range (len(l)):
+        p=p*l[i]
+    return p
+print(produit([2,1,5,4]))
+
+# Créé par Asaph, le 26/10/2021 en Python 3.7
+# fonction qui determine si tout les elements de la liste sont egaux
+def e(l):
+    for i in range (len(l)):
+        for e in range (len(l)):
+
+            if l[i]!=l[e]:
+                 return False
+        return True
+
+print(e([1,1,1,1]))
+
+#fonction qui determine si la racine carré d'un entier est un entier
+import math
+def cp(n):
+    a=math.sqrt(n)
+    if a%1==0:
+        return True
+    elif a%1!=0:
+       return False
+print (cp(4))

@@ -8,4 +8,4 @@
 - [Algorithmes de flots](3_algorithmes_de_flots/flots.md)
 	- [TD flots](3_algorithmes_de_flots/td_flots.md)
 - [Programmation lineaire](4_programmation_lineaire/lp.md)
-- [Programme du partiel](5_partiel.md)
+- [Partiel](5_partiel/partiel.md)

@@ -1,6 +1,7 @@
 # Summary
 
 - [Introduction](0_introduction/0_intro.md)
+- [Notebooks](notebooks/notebooks.md)
 - [Algorithmes gloutons](1_algorithmes_gloutons/algorithmes_gloutons.md)
 	- [TD algorithmes gloutons](1_algorithmes_gloutons/TD_algorithmes_gloutons.md)
 - [Programmation dynamique](2_programmation_dynamique/programmation_dynamique.md)

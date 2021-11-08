@@ -4,7 +4,7 @@
 <head>
     <!-- Book generated using mdBook -->
     <meta charset="UTF-8">
-    <title>Introduction - Optimisation combinatoire</title>
+    <title>Présentation du cours - Optimisation combinatoire</title>
         
 
     <!-- Custom HTML head -->
@@ -86,7 +86,7 @@
 
     <nav id="sidebar" class="sidebar" aria-label="Table of contents">
         <div class="sidebar-scrollbox">
-            <ol class="chapter"><li class="chapter-item expanded "><a href="0_introduction/0_intro.html"><strong aria-hidden="true">1.</strong> Introduction</a></li><li class="chapter-item expanded "><a href="notebooks/notebooks.html"><strong aria-hidden="true">2.</strong> Notebooks</a></li><li class="chapter-item expanded "><a href="1_algorithmes_gloutons/algorithmes_gloutons.html"><strong aria-hidden="true">3.</strong> Algorithmes gloutons</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="1_algorithmes_gloutons/TD_algorithmes_gloutons.html"><strong aria-hidden="true">3.1.</strong> TD algorithmes gloutons</a></li></ol></li><li class="chapter-item expanded "><a href="2_programmation_dynamique/programmation_dynamique.html"><strong aria-hidden="true">4.</strong> Programmation dynamique</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="2_programmation_dynamique/TD_programmation_dynamique.html"><strong aria-hidden="true">4.1.</strong> TD programmation dynamique</a></li></ol></li><li class="chapter-item expanded "><a href="3_algorithmes_de_flots/flots.html"><strong aria-hidden="true">5.</strong> Algorithmes de flots</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="3_algorithmes_de_flots/td_flots.html"><strong aria-hidden="true">5.1.</strong> TD flots</a></li></ol></li><li class="chapter-item expanded "><a href="5_partiel/partiel.html"><strong aria-hidden="true">6.</strong> Partiel</a></li><li class="chapter-item expanded "><a href="4_programmation_lineaire/lp.html"><strong aria-hidden="true">7.</strong> Programmation lineaire : simplexe</a></li><li class="chapter-item expanded "><a href="6_dualité/dual.html"><strong aria-hidden="true">8.</strong> Programmation lineaire : dualité</a></li><li class="chapter-item expanded "><a href="7_programmation_lineaire_en_nombre_entiers/mip.html"><strong aria-hidden="true">9.</strong> Programmation lineaire : en nombres entiers</a></li></ol>        </div>
+            <ol class="chapter"><li class="chapter-item expanded "><a href="index.html" class="active"><strong aria-hidden="true">1.</strong> Présentation du cours</a></li><li class="chapter-item expanded "><a href="0_introduction/0_intro.html"><strong aria-hidden="true">2.</strong> Introduction à l'optimisation</a></li><li class="chapter-item expanded "><a href="1_algorithmes_gloutons/algorithmes_gloutons.html"><strong aria-hidden="true">3.</strong> Algorithmes gloutons</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="1_algorithmes_gloutons/TD_algorithmes_gloutons.html"><strong aria-hidden="true">3.1.</strong> TD algorithmes gloutons</a></li></ol></li><li class="chapter-item expanded "><a href="2_programmation_dynamique/programmation_dynamique.html"><strong aria-hidden="true">4.</strong> Programmation dynamique</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="2_programmation_dynamique/TD_programmation_dynamique.html"><strong aria-hidden="true">4.1.</strong> TD programmation dynamique</a></li></ol></li><li class="chapter-item expanded "><a href="3_algorithmes_de_flots/flots.html"><strong aria-hidden="true">5.</strong> Algorithmes de flots</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="3_algorithmes_de_flots/td_flots.html"><strong aria-hidden="true">5.1.</strong> TD flots</a></li></ol></li><li class="chapter-item expanded "><a href="5_partiel/partiel.html"><strong aria-hidden="true">6.</strong> Partiel</a></li><li class="chapter-item expanded "><a href="4_programmation_lineaire/lp.html"><strong aria-hidden="true">7.</strong> Programmation lineaire : simplexe</a></li><li class="chapter-item expanded "><a href="6_dualité/dual.html"><strong aria-hidden="true">8.</strong> Programmation lineaire : dualité</a></li><li class="chapter-item expanded "><a href="7_programmation_lineaire_en_nombre_entiers/mip.html"><strong aria-hidden="true">9.</strong> Programmation lineaire : en nombres entiers</a></li></ol>        </div>
         <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
     </nav>
 
@@ -153,11 +153,15 @@
 
             <div id="content" class="content">
                 <main>
-                    <script type="text/javascript" src="../utils.js"></script>
-<iframe id="pdf-js-viewer" src="" title="webviewer" frameborder="0" width="100%" height="800"></iframe>
-<script>
-    window.onload = () => document.getElementById("pdf-js-viewer").src = url("0_introduction/0_intro.pdf") + "#zoom=page-fit&pagemode=none";
-</script>
+                    <p>Ce cours d'optimisation a été donné en 2021 à l'Université de Paris dans le master IAD (Intelligence Artificielle Distribuée).</p>
+<p>Le cours est illustré par des notebooks :</p>
+<table><thead><tr><th align="center"></th><th align="center"></th><th align="center"></th></tr></thead><tbody>
+<tr><td align="center">Exemple de résolution de PL  avec python-mip</td><td align="center"><a href="https://nbviewer.org/github/fortierq/oc-m1-2021/blob/master/src/4_programmation_lineaire/ex_mip.ipynb">NBViewer (statique)</a></td><td align="center"><a href="https://mybinder.org/v2/gh/fortierq/binder-oc/main?urlpath=git-pull%3Frepo%3Dhttps%253A%252F%252Fgithub.com%252Ffortierq%252Foc-m1-2021%26urlpath%3Dlab%252Ftree%252Foc-m1-2021%252Fsrc%252F4_programmation_lineaire%252Fex_mip.ipynb%26branch%3Dmaster">Binder (interactif)</a></td></tr>
+<tr><td align="center">Trouver un flot maximum avec un PL</td><td align="center"><a href="https://nbviewer.org/github/fortierq/oc-m1-2021/blob/master/src/4_programmation_lineaire/max_flow.ipynb">NBViewer (statique)</a></td><td align="center"><a href="https://mybinder.org/v2/gh/fortierq/binder-oc/main?urlpath=git-pull%3Frepo%3Dhttps%253A%252F%252Fgithub.com%252Ffortierq%252Foc-m1-2021%26urlpath%3Dlab%252Ftree%252Foc-m1-2021%252Fsrc%252F4_programmation_lineaire%252Fmax_flow.ipynb%26branch%3Dmaster">Binder (interactif)</a></td></tr>
+<tr><td align="center">Trouver un couplage maximum dans un graphe biparti</td><td align="center"><a href="https://nbviewer.org/github/fortierq/oc-m1-2021/blob/master/src/7_programmation_lineaire_en_nombre_entiers/max_matching.ipynb">NBViewer (statique)</a></td><td align="center"><a href="https://mybinder.org/v2/gh/fortierq/binder-oc/main?urlpath=git-pull%3Frepo%3Dhttps%253A%252F%252Fgithub.com%252Ffortierq%252Foc-m1-2021%26urlpath%3Dlab%252Ftree%252Foc-m1-2021%252Fsrc%252F7_programmation_lineaire_en_nombre_entiers%252Fmax_matching.ipynb%26branch%3Dmaster">Binder (interactif)</a></td></tr>
+<tr><td align="center">Approcher une couverture par sommets  avec relaxation + rounding</td><td align="center"><a href="https://nbviewer.org/github/fortierq/oc-m1-2021/blob/master/src/7_programmation_lineaire_en_nombre_entiers/min_vertex_cover.ipynb">NBViewer (statique)</a></td><td align="center"><a href="https://mybinder.org/v2/gh/fortierq/binder-oc/main?urlpath=git-pull%3Frepo%3Dhttps%253A%252F%252Fgithub.com%252Ffortierq%252Foc-m1-2021%26urlpath%3Dlab%252Ftree%252Foc-m1-2021%252Fsrc%252F7_programmation_lineaire_en_nombre_entiers%252Fmin_vertex_cover.ipynb%26branch%3Dmaster">Binder (interactif)</a></td></tr>
+</tbody></table>
+
                 </main>
 
                             </div>

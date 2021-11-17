@@ -12,3 +12,4 @@
 - [Programmation lineaire : simplexe](4_programmation_lineaire/lp.md)
 - [Programmation lineaire : dualité](6_dualité/dual.md)
 - [Programmation lineaire : en nombres entiers](7_programmation_lineaire_en_nombre_entiers/mip.md)
+    - [TD programmation linéaire](7_programmation_lineaire_en_nombre_entiers/td/td_pl.md)

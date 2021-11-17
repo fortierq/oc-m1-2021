@@ -4,7 +4,7 @@
 <head>
     <!-- Book generated using mdBook -->
     <meta charset="UTF-8">
-    <title>Introduction à l&#x27;optimisation - Optimisation combinatoire</title>
+    <title>TD programmation linéaire - Optimisation combinatoire</title>
         
 
     <!-- Custom HTML head -->
@@ -15,20 +15,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#ffffff" />
 
-        <link rel="icon" href="../favicon.svg">
-            <link rel="shortcut icon" href="../favicon.png">
-        <link rel="stylesheet" href="../css/variables.css">
-    <link rel="stylesheet" href="../css/general.css">
-    <link rel="stylesheet" href="../css/chrome.css">
+        <link rel="icon" href="../../favicon.svg">
+            <link rel="shortcut icon" href="../../favicon.png">
+        <link rel="stylesheet" href="../../css/variables.css">
+    <link rel="stylesheet" href="../../css/general.css">
+    <link rel="stylesheet" href="../../css/chrome.css">
     
     <!-- Fonts -->
-    <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
-        <link rel="stylesheet" href="../fonts/fonts.css">
+    <link rel="stylesheet" href="../../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../../fonts/fonts.css">
     
     <!-- Highlight.js Stylesheets -->
-    <link rel="stylesheet" href="../highlight.css">
-    <link rel="stylesheet" href="../tomorrow-night.css">
-    <link rel="stylesheet" href="../ayu-highlight.css">
+    <link rel="stylesheet" href="../../highlight.css">
+    <link rel="stylesheet" href="../../tomorrow-night.css">
+    <link rel="stylesheet" href="../../ayu-highlight.css">
 
     <!-- Custom theme stylesheets -->
     
@@ -40,7 +40,7 @@
 <body>
     <!-- Provide site root to javascript -->
     <script type="text/javascript">
-        var path_to_root = "../";
+        var path_to_root = "../../";
         var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
     </script>
 
@@ -86,7 +86,7 @@
 
     <nav id="sidebar" class="sidebar" aria-label="Table of contents">
         <div class="sidebar-scrollbox">
-            <ol class="chapter"><li class="chapter-item expanded "><a href="../index.html"><strong aria-hidden="true">1.</strong> Présentation du cours</a></li><li class="chapter-item expanded "><a href="../0_introduction/0_intro.html" class="active"><strong aria-hidden="true">2.</strong> Introduction à l'optimisation</a></li><li class="chapter-item expanded "><a href="../1_algorithmes_gloutons/algorithmes_gloutons.html"><strong aria-hidden="true">3.</strong> Algorithmes gloutons</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../1_algorithmes_gloutons/TD_algorithmes_gloutons.html"><strong aria-hidden="true">3.1.</strong> TD algorithmes gloutons</a></li></ol></li><li class="chapter-item expanded "><a href="../2_programmation_dynamique/programmation_dynamique.html"><strong aria-hidden="true">4.</strong> Programmation dynamique</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../2_programmation_dynamique/TD_programmation_dynamique.html"><strong aria-hidden="true">4.1.</strong> TD programmation dynamique</a></li></ol></li><li class="chapter-item expanded "><a href="../3_algorithmes_de_flots/flots.html"><strong aria-hidden="true">5.</strong> Algorithmes de flots</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../3_algorithmes_de_flots/td_flots.html"><strong aria-hidden="true">5.1.</strong> TD flots</a></li></ol></li><li class="chapter-item expanded "><a href="../5_partiel/partiel.html"><strong aria-hidden="true">6.</strong> Partiel</a></li><li class="chapter-item expanded "><a href="../4_programmation_lineaire/lp.html"><strong aria-hidden="true">7.</strong> Programmation lineaire : simplexe</a></li><li class="chapter-item expanded "><a href="../6_dualité/dual.html"><strong aria-hidden="true">8.</strong> Programmation lineaire : dualité</a></li><li class="chapter-item expanded "><a href="../7_programmation_lineaire_en_nombre_entiers/mip.html"><strong aria-hidden="true">9.</strong> Programmation lineaire : en nombres entiers</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../7_programmation_lineaire_en_nombre_entiers/td/td_pl.html"><strong aria-hidden="true">9.1.</strong> TD programmation linéaire</a></li></ol></li></ol>        </div>
+            <ol class="chapter"><li class="chapter-item expanded "><a href="../../index.html"><strong aria-hidden="true">1.</strong> Présentation du cours</a></li><li class="chapter-item expanded "><a href="../../0_introduction/0_intro.html"><strong aria-hidden="true">2.</strong> Introduction à l'optimisation</a></li><li class="chapter-item expanded "><a href="../../1_algorithmes_gloutons/algorithmes_gloutons.html"><strong aria-hidden="true">3.</strong> Algorithmes gloutons</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../1_algorithmes_gloutons/TD_algorithmes_gloutons.html"><strong aria-hidden="true">3.1.</strong> TD algorithmes gloutons</a></li></ol></li><li class="chapter-item expanded "><a href="../../2_programmation_dynamique/programmation_dynamique.html"><strong aria-hidden="true">4.</strong> Programmation dynamique</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../2_programmation_dynamique/TD_programmation_dynamique.html"><strong aria-hidden="true">4.1.</strong> TD programmation dynamique</a></li></ol></li><li class="chapter-item expanded "><a href="../../3_algorithmes_de_flots/flots.html"><strong aria-hidden="true">5.</strong> Algorithmes de flots</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../3_algorithmes_de_flots/td_flots.html"><strong aria-hidden="true">5.1.</strong> TD flots</a></li></ol></li><li class="chapter-item expanded "><a href="../../5_partiel/partiel.html"><strong aria-hidden="true">6.</strong> Partiel</a></li><li class="chapter-item expanded "><a href="../../4_programmation_lineaire/lp.html"><strong aria-hidden="true">7.</strong> Programmation lineaire : simplexe</a></li><li class="chapter-item expanded "><a href="../../6_dualité/dual.html"><strong aria-hidden="true">8.</strong> Programmation lineaire : dualité</a></li><li class="chapter-item expanded "><a href="../../7_programmation_lineaire_en_nombre_entiers/mip.html"><strong aria-hidden="true">9.</strong> Programmation lineaire : en nombres entiers</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../7_programmation_lineaire_en_nombre_entiers/td/td_pl.html" class="active"><strong aria-hidden="true">9.1.</strong> TD programmation linéaire</a></li></ol></li></ol>        </div>
         <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
     </nav>
 
@@ -154,10 +154,11 @@
             <div id="content" class="content">
                 <main>
                     <script type="text/javascript" src="../utils.js"></script>
-<iframe id="pdf-js-viewer" src="" title="webviewer" frameborder="0" width="100%" height="800"></iframe>
+<iframe id="pdf-js-viewer" src="" title="webviewer" frameborder="0" width="100%" height="8000"></iframe>
 <script>
-    window.onload = () => document.getElementById("pdf-js-viewer").src = url("0_introduction/0_intro.pdf") + "#zoom=page-fit&pagemode=none";
+    window.onload = () => document.getElementById("pdf-js-viewer").src = url("7_programmation_lineaire_en_nombre_entiers/td/td_pl.pdf") + "#zoom=page-width&pagemode=none";
 </script>
+
                 </main>
 
                             </div>
@@ -174,13 +175,13 @@
     </script>
     
     
-        <script src="../elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
-    <script src="../mark.min.js" type="text/javascript" charset="utf-8"></script>
-    <script src="../searcher.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="../../mark.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="../../searcher.js" type="text/javascript" charset="utf-8"></script>
     
-    <script src="../clipboard.min.js" type="text/javascript" charset="utf-8"></script>
-    <script src="../highlight.js" type="text/javascript" charset="utf-8"></script>
-    <script src="../book.js" type="text/javascript" charset="utf-8"></script>
+    <script src="../../clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="../../highlight.js" type="text/javascript" charset="utf-8"></script>
+    <script src="../../book.js" type="text/javascript" charset="utf-8"></script>
 
     <!-- Custom JS scripts -->
     

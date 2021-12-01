@@ -13,4 +13,4 @@
 - [Programmation lineaire : dualité](6_dualité/dual.md)
 - [Programmation lineaire : en nombres entiers](7_programmation_lineaire_en_nombre_entiers/mip.md)
     - [TD programmation linéaire](7_programmation_lineaire_en_nombre_entiers/td/td_pl.md)
-- [Branch & Bound](8_branch_and_bound/branch_and_bound.pdf)
+- [Branch and Bound](8_branch_and_bound/branch_and_bound.pdf)

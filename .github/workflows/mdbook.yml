@@ -1,0 +1,39 @@
+name: github pages
+
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-20.04
+    steps:
+      - uses: actions/checkout@v2
+
+      - uses: actions/setup-python@v2
+
+      # - run: |
+      #     git config --global user.name github-actions
+      #     git config --global user.email github-actions@github.com
+      #     git pull
+      #     pip install Jinja2
+      #     cd src
+      #     python3 render_template.py
+      #     git add .
+      #     git commit -m "Render templates" || true
+      #     git push "https://fortierq:$${{ secrets.GITHUB_TOKEN }}@github.com/${{github.repository}}.git" --set-upstream master || true
+
+      - name: Setup mdBook
+        uses: peaceiris/actions-mdbook@v1
+        with:
+          mdbook-version: 'latest'
+
+      - run: mdbook build
+
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@4.1.5
+        with:
+          branch: gh-pages # The branch the action should deploy to.
+          folder: book # The folder the action should deploy.

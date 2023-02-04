@@ -1,0 +1,17 @@
+# Summary
+
+- [Présentation et notebooks](index.md)
+- [Introduction à l'optimisation](0_introduction/0_intro.md)
+- [Algorithmes gloutons](1_algorithmes_gloutons/algorithmes_gloutons.md)
+	- [TD algorithmes gloutons](1_algorithmes_gloutons/TD_algorithmes_gloutons.md)
+- [Programmation dynamique](2_programmation_dynamique/programmation_dynamique.md)
+	- [TD programmation dynamique](2_programmation_dynamique/TD_programmation_dynamique.md)
+- [Algorithmes de flots](3_algorithmes_de_flots/flots.md)
+	- [TD flots](3_algorithmes_de_flots/td_flots.md)
+- [Partiel](5_partiel/partiel.md)
+- [Programmation lineaire : simplexe](4_programmation_lineaire/lp.md)
+- [Programmation lineaire : dualité](6_dualité/dual.md)
+- [Programmation lineaire : en nombres entiers](7_programmation_lineaire_en_nombre_entiers/mip.md)
+    - [TD programmation linéaire](7_programmation_lineaire_en_nombre_entiers/td/td_pl.md)
+- [Branch & Bound](8_branch_and_bound/branch_and_bound.md)
+- [Programme de l'examen](10_exam.md)
